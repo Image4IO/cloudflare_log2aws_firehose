@@ -1,0 +1,13 @@
+name = "cloudflare-app-logs-to-aws-firehose"
+type = "webpack"
+workers_dev = true
+webpack_config = "webpack.config.js"
+account_id = "ccbc9926d08a298aee2a4f0cffcfc4a3"
+
+[env.staging]
+name = "cloudflare-app-logs-to-aws-firehose"
+zone_id = ""
+
+[env.production]
+name = "cloudflare-app-logs-to-aws-firehose"
+webpack_config = "webpack.prod.js"

@@ -1,0 +1,22 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+.DS_Store
+*.log
+tmp
+node_modules
+build
+
+# IDEs
+
+/.idea/
+
+# Staging
+
+/staging/*
+!/staging/install_options.js
+
+# Worker built by wrangler
+
+/worker/script.js
